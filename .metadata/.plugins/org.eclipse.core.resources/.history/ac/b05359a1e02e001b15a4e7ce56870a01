@@ -1,0 +1,39 @@
+package mntanproject.core.servercore;
+
+import java.io.IOException;
+
+public class Test {
+
+	public static void main(String[] args) throws IOException {
+	
+		MnServer server = new MnServer(9000);
+		//Thread serverThread = new Thread(server);
+		server.startServer();
+		
+		System.out.println("working at other things.....");
+		System.out.println("starting sleep thread");
+		
+	try {
+		    Thread sleepThread = new Thread();
+		    sleepThread.start();
+		    sleepThread.sleep(11000);
+		    sleepThread.interrupt();
+		
+	} catch (InterruptedException e) {
+			System.out.println("}}}}}}}}}}}}}}}}}}}}}}}}");
+		    e.printStackTrace();
+		}
+	
+		System.out.println("sleep thread ended");
+	
+	
+		//server.shutdownServer();
+		//System.out.println("Bye...");
+		//System.exit(0);
+		//serverThread.setRunning(false);
+		//serverThread.shutDownServer();
+		
+	
+		
+	}		
+}

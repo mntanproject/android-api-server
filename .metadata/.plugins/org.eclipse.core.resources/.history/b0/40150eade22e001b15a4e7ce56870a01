@@ -1,0 +1,61 @@
+package mntanproject.core.server.request;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class HttpRequestFactory {
+
+	public HttpRequest create(InputStream is) {
+//		try {
+//			InputStreamReader isReader = new InputStreamReader(is);
+//			BufferedReader bf = new BufferedReader(isReader);
+//			String  str  = bf.readLine();
+//			System.out.println("client says: " + str);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		Scanner scanner = new Scanner(is);
+		//validatePresenceOfStartLine(scanner);
+		
+		String startLine = scanner.nextLine();
+		validateStartLine(startLine);
+		
+		HttpMethod method = extractMethodFrom(startLine);
+		String uri = extractUriFrom(startLine);
+		String version = extractHttpVersionFrom(startLine);
+		
+		return new HttpRequest(method, uri, version);
+	}
+	
+	private void validatePresenceOfStartLine(Scanner scanner) {
+		if (!scanner.hasNextLine()) {
+			//throw new IllegalArgumentException("The Http Request received has no Start Line!");
+			System.out.println("error validate");
+		}
+	}
+	
+	private void validateStartLine(String startLine) {
+		if (startLine.isEmpty() || startLine.split(" ").length != 3) {
+			//throw new IllegalArgumentException("Invalid Start Line!");
+			System.out.println("error startline");
+		}
+	}
+
+	private HttpMethod extractMethodFrom(String startLine) {
+		String methodName = startLine.split(" ")[0];
+		return HttpMethod.valueOf(methodName);
+	}
+	
+	private String extractUriFrom(String startLine) {
+		return startLine.split(" ")[1];
+	}
+	
+	private String extractHttpVersionFrom(String startLine) {
+		return startLine.split(" ")[2];
+	}
+	
+}

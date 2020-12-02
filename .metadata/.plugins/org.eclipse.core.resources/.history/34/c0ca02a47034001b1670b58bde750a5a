@@ -1,0 +1,16 @@
+package mntanproject.pos.api;
+
+import com.google.gson.Gson;
+
+public class TryFunction {
+
+	public static void main(String[] args) {
+		String params  = "name=martin";
+		
+		
+		Gson gson = new Gson();
+		String json = gson.toJson(params);
+		System.out.println(json);
+	}
+
+}

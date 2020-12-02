@@ -1,0 +1,6 @@
+package mntanproject.core.server.request;
+
+public enum RegisteredRoute {
+	SUPPLIER;
+
+}

@@ -1,0 +1,12 @@
+package mntanproject.core.server.response;
+
+import java.io.InputStream;
+
+import mntanproject.core.server.request.HttpRequest;
+
+public abstract class HttpResponseFactory {
+	
+	abstract HttpResponse create();
+
+	
+}

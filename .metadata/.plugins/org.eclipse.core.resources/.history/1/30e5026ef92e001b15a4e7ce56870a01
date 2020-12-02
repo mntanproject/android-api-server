@@ -1,0 +1,25 @@
+package mntanproject.core.server.response;
+
+import java.io.OutputStream;
+
+public final class HttpResponse {
+
+	private StatusCode statusCode = null;
+	private ContentType contentType = null;
+	public String content = null;
+	
+	public HttpResponse(StatusCode statusCode,ContentType contentType,String content) {
+	
+		this.statusCode = statusCode;
+		this.contentType = contentType;
+		this.content = content;
+	
+	}
+	
+	public String getStartLine() {
+		return "HTTP/1.1 " + statusCode + "\r\n";
+	}
+	
+	
+	
+}

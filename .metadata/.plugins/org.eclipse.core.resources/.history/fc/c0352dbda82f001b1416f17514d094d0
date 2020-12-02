@@ -1,0 +1,12 @@
+package mntanproject.pos.api;
+
+import java.net.URI;
+import java.net.http.HttpRequest;
+import java.net.http.HttpClient.Version;
+import java.net.http.HttpRequest.BodyPublisher;
+import java.net.http.HttpRequest.Builder;
+import java.time.Duration;
+
+public class SupplierRequest{
+
+}

@@ -1,0 +1,18 @@
+package mntanproject.core.server.response;
+
+import java.io.OutputStream;
+
+public final class HttpResponse {
+
+	private final StatusCode statusCode = null;
+	private final ContentType contentType = null;
+	public String content = null;
+	
+	public HttpResponse(String content) {
+	
+		this.content = content;
+	}
+	
+	
+	
+}

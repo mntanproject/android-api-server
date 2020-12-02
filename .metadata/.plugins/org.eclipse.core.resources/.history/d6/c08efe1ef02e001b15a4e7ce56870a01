@@ -1,0 +1,5 @@
+package mntanproject.core.server.response;
+
+public enum ContentType {
+
+}

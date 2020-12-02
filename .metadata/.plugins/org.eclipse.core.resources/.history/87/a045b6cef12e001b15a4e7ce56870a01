@@ -1,0 +1,10 @@
+package mntanproject.core.server.response;
+
+public class TestResponse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

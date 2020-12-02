@@ -1,0 +1,9 @@
+package mntanproject.pos.api;
+
+public class Supplier {
+	public long id;
+    public String company,name,contactno,email,street,city,state,country,bank,notes;
+
+
+
+}

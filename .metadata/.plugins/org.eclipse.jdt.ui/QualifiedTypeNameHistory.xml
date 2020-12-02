@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.response.HttpResponseFactory"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpRequest"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpRequest.Builder"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpResponse"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.request.HttpMethod"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.MnServer.connectionListener"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.response.StatusCode"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.response.ContentType"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.request.HttpRequest"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.request.RegisteredRoute"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.route.Route"/>
+    <fullyQualifiedTypeName name="mntanproject.pos.api.SupplierResponse"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="okio.HashingSource"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
+    <fullyQualifiedTypeName name="mntanproject.core.server.response.HttpResponse"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+</qualifiedTypeNameHistroy>
