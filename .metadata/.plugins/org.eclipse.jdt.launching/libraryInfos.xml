@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="C:\Users\MnAsusPC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre" version="14.0.2"/>
+    <libraryInfo home="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64" version="1.8.0_201-2-redhat">
+        <bootpath>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\resources.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\rt.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\sunrsasign.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\jsse.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\jce.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\charsets.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\jfr.jar"/>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="D:\SelfProject\DevelopmentSoftware\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.201-2.b09.redhat.windows.x86_64\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
     <libraryInfo home="C:\Users\MnAsusPC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932" version="14.0.2"/>
 </libraryInfos>

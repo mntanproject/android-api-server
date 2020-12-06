@@ -1,39 +1,32 @@
 package mntanproject.pos.supplier;
 
+import java.lang.reflect.Method;
 import java.util.HashMap;
 
 
 import com.google.gson.Gson;
 
 
-public class TryFunction {
+public class TryFunction extends GenericApi<Supplier>{
 
 	public static void main(String[] args) {
-		String params  = "name=martin&company=";
-		
-		paramToObject(params);
-		
-		//System.out.println(json);
-	}
-
-	public static void paramToObject(String param) {
-		System.out.println("param: " + param);
-		String[] splits = param.split("&");
-		HashMap<String, String> mappedParam = new HashMap<String, String>();
-		
-		for (String string : splits) {
-			String[] keyValue = null;
-			keyValue = string.split("=");
-			if(keyValue.length == 2) {
-				mappedParam.put(keyValue[0], keyValue[1]);
+		Class<?> classRef; 
+		try {
+			//classRef = Class.forName("mntanproject.pos.supplier.SupplierResponse");
+			SupplierResponse supp = new SupplierResponse();
+			//Object instance = classRef.newInstance();
+			for (Method clazzMethod : supp.getClass().getMethods()) {
+				System.out.println(clazzMethod);
 			}
-			
+		
+			supp.test("");
+			System.out.println("-----");
+		} catch (Exception e) {
+			// TODO: handle exception
 		}
-		mappedParam.forEach((k,v) -> {System.out.println(k);});
-		Gson gson = new Gson();
-		String json = gson.toJson(mappedParam);
-		Supplier supplier = gson.fromJson(json, Supplier.class);
-		System.out.println("json: " + json);
-		System.out.println("supplier: " + supplier.toString());
+		
 	}
+	
+
+
 }

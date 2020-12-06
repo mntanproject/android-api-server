@@ -51,15 +51,19 @@ public class Route {
 //		}
 		if (splitsLength >= 5) {
 			api = splits[1];
-			if (api != null && !api.isBlank()) {
+			if (api != null && api.trim().length()!=0) {
 				if (api.equalsIgnoreCase("api")) {
 					route = splits[2];
 					method = splits[3];
 					params = splits[4];
+				}else {
+					System.out.println("Server is only for api access");
 				}
 
 			}
 
+		}else {
+			System.out.println("Invalid Request");
 		}
 
 	}
@@ -71,7 +75,7 @@ public class Route {
 		HttpResponse response = null;
 		if (!routes.isEmpty() && route != null) {
 			for (Map.Entry<String, String> hm : routes.entrySet()) {
-				if (hm.getKey().toLowerCase().equals(route.toLowerCase())) {
+				if (hm.getKey().equalsIgnoreCase(route.toLowerCase())) {
 					System.out.println("API Found: " + hm.getKey());
 					response = getReflectionResponse(hm.getValue());
 				} else {
@@ -88,25 +92,24 @@ public class Route {
 
 		HttpResponse response = null;
 		try {
-			// SupplierResponse supplier;
 			Class<?> classRef;
 			classRef = Class.forName(clazz);
-			// System.out.println("created class: " + route);
 			Object instance = classRef.newInstance();
-			// System.out.println("created object: " + route);
 			boolean methodFound = false;
-			for (Method clazzMethod : classRef.getDeclaredMethods()) {
+			for (Method clazzMethod : classRef.getMethods()) {
 				if(clazzMethod.getName().equalsIgnoreCase(method)) {
 					methodFound = true;
+					//System.out.println("Found: " + clazzMethod);
 					break;
 				}
+				//System.out.println("" + clazzMethod);
 			}
 			if(methodFound) {
 				//Do some checking for the method
 				//Method must accept one parameter String.class
 				//Method must return HttpResponse.class
 				//otherwise reject process
-				Method invokeMethod = classRef.getDeclaredMethod(method,String.class);
+				Method invokeMethod = classRef.getMethod(method,String.class);
 				Class<?>[] invokeMethodParams = invokeMethod.getParameterTypes();
 				int invokeMethodParamsCount = invokeMethodParams.length;
 				if(invokeMethodParamsCount == 1 && invokeMethodParams[0].equals(String.class) && invokeMethod.getReturnType().equals(HttpResponse.class)) {

@@ -1,5 +1,0 @@
-package mntanproject.core.server.response;
-
-public class HttpResponseFactory {
-
-}

@@ -1,9 +1,0 @@
-package mntanproject.core.server.response;
-
-
-public abstract class HttpResponseFactory {
-	
-	abstract HttpResponse create();
-
-	
-}
