@@ -1,15 +1,21 @@
 package mntanproject.core.server.request;
 
+import java.util.HashMap;
+
 public class HttpRequest {
 
-	private final HttpMethod method;
+	private final String method;
 	private final String uri;
 	private final String httpVersion;
+	private final HashMap<String, String> httpHeader;
+	private final String httpBody;
 
-	public HttpRequest(HttpMethod method, String uri, String httpVersion) {
+	public HttpRequest(String method, String uri, String httpVersion,HashMap<String, String> httpHeader,String httpBody) {
 		this.method = method;
 		this.uri = uri;
 		this.httpVersion = httpVersion;
+		this.httpHeader = httpHeader;
+		this.httpBody = httpBody;
 	}
 	
 	@Override
@@ -21,7 +27,7 @@ public class HttpRequest {
 		return method +" " +uri +" " +httpVersion;
 	}
 
-	public HttpMethod getMethod() {
+	public String getMethod() {
 		return method;
 	}
 
@@ -33,5 +39,15 @@ public class HttpRequest {
 		return httpVersion;
 	}
 
+	public HashMap<String, String> getHttpHeader() {
+		return httpHeader;
+	}
+
+	public String getHttpBody() {
+		return httpBody;
+	}
+
+	
+	
 }
 

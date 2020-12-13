@@ -20,20 +20,20 @@ public class Test {
 		System.out.println("working at other things.....");
 		System.out.println("starting sleep thread");
 		
-	try {
-		    Thread sleepThread = new Thread();
-		    sleepThread.start();
-		    sleepThread.sleep(11000);
-		    sleepThread.interrupt();
-		
-	} catch (InterruptedException e) {
-			System.out.println("}}}}}}}}}}}}}}}}}}}}}}}}");
-		    e.printStackTrace();
-		}
-	
-		System.out.println("sleep thread ended");
-	
-		server.startServer();
+//	try {
+//		    Thread sleepThread = new Thread();
+//		    sleepThread.start();
+//		    sleepThread.sleep(11000);
+//		    sleepThread.interrupt();
+//		
+//	} catch (InterruptedException e) {
+//			System.out.println("}}}}}}}}}}}}}}}}}}}}}}}}");
+//		    e.printStackTrace();
+//		}
+//	
+//		System.out.println("sleep thread ended");
+//	
+//		server.startServer();
 		//server.shutdownServer();
 		//System.out.println("Bye...");
 		//System.exit(0);
