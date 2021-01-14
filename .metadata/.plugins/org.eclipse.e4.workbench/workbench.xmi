@@ -74,9 +74,8 @@
           <tags>persp.newWizSC:org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard</tags>
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_EGmnBDzsEeuH88imO3VAiA" selectedElement="_EGmnBTzsEeuH88imO3VAiA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_EGmnBDzsEeuH88imO3VAiA" selectedElement="_EGmnCjzsEeuH88imO3VAiA" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_EGmnBTzsEeuH88imO3VAiA" elementId="topLeft" containerData="1859" selectedElement="_EGmnBjzsEeuH88imO3VAiA">
-              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_EGmnBjzsEeuH88imO3VAiA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_EGmpoDzsEeuH88imO3VAiA" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -202,9 +201,10 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_EGmpdDzsEeuH88imO3VAiA" elementId="org.eclipse.ui.editorss" selectedElement="_EGmpdTzsEeuH88imO3VAiA">
-      <children xsi:type="basic:PartStack" xmi:id="_EGmpdTzsEeuH88imO3VAiA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_EGmpfzzsEeuH88imO3VAiA">
+      <children xsi:type="basic:PartStack" xmi:id="_EGmpdTzsEeuH88imO3VAiA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_EGmpejzsEeuH88imO3VAiA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_EGmpdjzsEeuH88imO3VAiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MnServer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MnServer.java&quot; partName=&quot;MnServer.java&quot; title=&quot;MnServer.java&quot; tooltip=&quot;mnserver/src/main/java/mntanproject/core/server/MnServer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mnserver/src/main/java/mntanproject/core/server/MnServer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3063&quot; selectionTopPixel=&quot;1382&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -212,10 +212,12 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_EGmpejzsEeuH88imO3VAiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Route.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Route.java&quot; partName=&quot;Route.java&quot; title=&quot;Route.java&quot; tooltip=&quot;mnserver/src/main/java/mntanproject/core/server/route/Route.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mnserver/src/main/java/mntanproject/core/server/route/Route.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1154&quot; selectionTopPixel=&quot;91&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Route.java&quot; partName=&quot;Route.java&quot; title=&quot;Route.java&quot; tooltip=&quot;mnserver/src/main/java/mntanproject/core/server/route/Route.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mnserver/src/main/java/mntanproject/core/server/route/Route.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;22&quot; selectionOffset=&quot;2223&quot; selectionTopPixel=&quot;2217&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_EGmpfjzsEeuH88imO3VAiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SupplierResponse.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SupplierResponse.java&quot; partName=&quot;SupplierResponse.java&quot; title=&quot;SupplierResponse.java&quot; tooltip=&quot;mnserver/src/main/java/mntanproject/pos/supplier/SupplierResponse.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mnserver/src/main/java/mntanproject/pos/supplier/SupplierResponse.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;34&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -297,8 +299,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1606280839979&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_EGmpoTzsEeuH88imO3VAiA" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -432,7 +432,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EGnOkDzsEeuH88imO3VAiA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pSJFcEsiEeufEpUTHKRtdA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EGogmjzsEeuH88imO3VAiA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nFo6wFL7EeuHv92v3iHZwg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EGogmjzsEeuH88imO3VAiA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EGnOnTzsEeuH88imO3VAiA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -469,7 +469,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EGnPATzsEeuH88imO3VAiA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pSMv0EsiEeufEpUTHKRtdA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_EGogQTzsEeuH88imO3VAiA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nFr-EFL7EeuHv92v3iHZwg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EGogQTzsEeuH88imO3VAiA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EGnPDTzsEeuH88imO3VAiA" elementId="org.eclipse.m2e.editor.MavenPomEditor" visible="false">
         <tags>Draggable</tags>
