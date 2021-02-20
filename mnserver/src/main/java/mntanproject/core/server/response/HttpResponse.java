@@ -85,7 +85,7 @@ public class HttpResponse {
 //				"\r\n" + 
 //				content;
 //		
-		System.out.println("httpString: " + httpString);
+		//System.out.println("HttpString: " + httpString);
 		return httpString;
 	}
 	

@@ -2948,3 +2948,232 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestResponse refere
 2020-12-13 10:18:39,037 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-12-31 11:43:01,863 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-01-10 11:23:46,022 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-07 09:58:57,207 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-19 14:09:31,515 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-19 14:58:37,732 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 14:58:37,739 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 14:58:37,741 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 14:58:37,743 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 14:59:26,446 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-19 14:59:27,277 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mntanproject:mnserver:1.0 @ C:\MnTanProjectWorkspace\mnserver\pom.xml.
+2021-02-19 14:59:27,598 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mnserver/src/main/java
+2021-02-19 14:59:27,598 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mnserver/src/main/resources
+2021-02-19 14:59:27,599 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mnserver/src/test/java
+2021-02-19 14:59:27,599 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mnserver/src/test/resources
+2021-02-19 14:59:27,792 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-02-19 14:59:28,153 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 14:59:28,155 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 14:59:28,158 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 14:59:28,159 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:00:03,597 [Worker-26: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:00:03,598 [Worker-26: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:00:09,652 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:00:09,655 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:00:09,656 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:00:09,658 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:21:46,401 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:21:46,408 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:21:46,409 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:21:46,411 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:21:55,663 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-02-19 15:22:22,670 [Worker-35: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:22:22,670 [Worker-35: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:22:26,146 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:22:26,148 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:22:26,149 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:22:26,150 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:24:02,468 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:24:02,470 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:24:02,471 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:24:02,472 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:24:08,487 [Worker-36: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:24:08,488 [Worker-36: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:24:11,869 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:24:11,872 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:24:11,873 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:24:11,875 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:27:42,105 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:27:42,107 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:27:42,109 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:27:42,110 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:27:48,123 [Worker-39: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:27:48,124 [Worker-39: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:27:51,505 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:27:51,507 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:27:51,509 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:27:51,510 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:32:32,587 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:32:32,589 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:32:32,591 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:32:32,592 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:32:38,374 [Worker-44: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:32:38,374 [Worker-44: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:32:41,794 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:32:41,795 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:32:41,796 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:32:41,798 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:35:43,373 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:35:43,375 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:35:43,376 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:35:43,377 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:35:52,738 [Worker-47: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:35:52,739 [Worker-47: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:35:56,214 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:35:56,215 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:35:56,216 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:35:56,217 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:37:29,118 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:37:29,120 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:37:29,121 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:37:29,123 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:37:35,324 [Worker-49: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-19 15:37:35,324 [Worker-49: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-19 15:37:38,710 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:37:38,711 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-19 15:37:38,712 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-19 15:37:38,713 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:15:49,364 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-20 09:17:52,258 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:17:52,266 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:17:52,268 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:17:52,269 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:18:42,174 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:18:42,179 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:18:42,181 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:18:42,182 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:19:13,288 [Worker-0: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 09:19:13,293 [Worker-0: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 09:19:20,294 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:19:20,295 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:19:20,296 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:19:20,297 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:36:47,701 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-20 09:37:54,955 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:37:54,959 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:37:54,962 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:37:54,963 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:37:58,472 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:37:58,478 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:37:58,480 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:37:58,481 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:38:15,291 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:38:15,293 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:38:15,295 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:38:15,297 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:38:27,136 [Worker-11: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 09:38:27,139 [Worker-11: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 09:38:30,995 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:38:30,997 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 09:38:30,998 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 09:38:31,000 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:20:17,190 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:20:17,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:20:17,193 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:20:17,194 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:20:23,764 [Worker-25: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 10:20:23,764 [Worker-25: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 10:20:27,637 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:20:27,639 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:20:27,641 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:20:27,646 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:25:33,164 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:25:33,166 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:25:33,167 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:25:33,168 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:25:43,801 [Worker-29: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 10:25:43,801 [Worker-29: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 10:25:47,509 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:25:47,511 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:25:47,513 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:25:47,514 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:30:55,383 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:30:55,384 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:30:55,385 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:30:55,386 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:31:01,259 [Worker-30: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 10:31:01,259 [Worker-30: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 10:31:04,677 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:31:04,678 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 10:31:04,679 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 10:31:04,681 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:15:44,081 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:15:44,083 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:15:44,084 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:15:44,086 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:15:51,245 [Worker-38: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 11:15:51,246 [Worker-38: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 11:15:55,060 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:15:55,062 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:15:55,063 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:15:55,064 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:01,918 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:01,920 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:01,921 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:01,922 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:45,520 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:45,522 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:45,523 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:45,523 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:51,674 [Worker-38: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 11:19:51,675 [Worker-38: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 11:19:54,992 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:54,994 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 11:19:54,995 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 11:19:54,996 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:10:40,079 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-20 14:15:07,111 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:15:07,121 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:15:07,124 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:15:07,126 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:15:12,289 [Worker-23: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 14:15:12,290 [Worker-23: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 14:15:16,051 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:15:16,054 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:15:16,056 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:15:16,057 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:18:18,639 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:18:18,644 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:18:18,645 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:18:18,646 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:20:01,585 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:20:01,587 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:20:01,588 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:20:01,589 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:20:48,119 [Worker-25: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 14:20:48,119 [Worker-25: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 14:20:51,563 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:20:51,565 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:20:51,566 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:20:51,568 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:27:58,305 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:27:58,306 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:27:58,308 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:27:58,309 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:28:03,431 [Worker-11: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 14:28:03,432 [Worker-11: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 14:28:07,035 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:28:07,036 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:28:07,037 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:28:07,038 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:34:21,325 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:34:21,326 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:34:21,329 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:34:21,330 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:34:28,870 [Worker-32: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 14:34:28,871 [Worker-32: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 14:34:32,494 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:34:32,495 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 14:34:32,496 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 14:34:32,497 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 15:07:51,133 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mntanproject:mnserver:2.0 @ C:\MnTanProjectWorkspace\mnserver\pom.xml.
+2021-02-20 15:07:51,415 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 15:07:51,418 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 15:07:51,419 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 15:07:51,420 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 15:07:58,098 [Worker-41: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\MnTanProjectWorkspace\mnserver
+2021-02-20 15:07:58,098 [Worker-41: Launching Executing install in C__MnTanProjectWorkspace_mnserver] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-02-20 15:08:01,381 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 15:08:01,383 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 15:08:01,384 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-20 15:08:01,385 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-20 15:26:08,022 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

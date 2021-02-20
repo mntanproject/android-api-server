@@ -25,12 +25,12 @@ public class HttpRequestFactory {
         line = in.readLine();
         System.out.println("line create: " + line);
         if(line != null) {
-        	System.out.println("HTTP-HEADER: " + line);
+        	//System.out.println("HTTP-HEADER: " + line);
             httpMethod = extractMethod(line);
             httpUri = extractUri(line);
             httpVersion = extractHttpVersion(line);
             generateHeaderBody(in);
-            System.out.println("Post Data: " + httpBody);
+            //System.out.println("Post Data: " + httpBody);
              	
         } else {
         	System.out.println("input stream empty: " + line);
@@ -89,7 +89,7 @@ public class HttpRequestFactory {
         int postDataIndex = -1;
         String line = "";
         while ((line = in.readLine()) != null && (line.length() != 0)) {
-        	System.out.println("line header body: " + line);
+        	//System.out.println("line header body: " + line);
         	String[] splits = line.split(":");
         	if(splits != null && splits.length == 2) {
         		httpHeader.put(splits[0], splits[1]);
